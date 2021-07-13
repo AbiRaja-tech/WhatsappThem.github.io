@@ -8,7 +8,8 @@ if ("serviceWorker" in navigator) {
 }
 
 function onClick() {
-  const phoneNumber = document.getElementById("phone").value
+  const prefix = "+91"
+  const phoneNumber = prefix + document.getElementById("phone").value
   if (phoneNumber !== "") {
     url = "https://wa.me/" + phoneNumber
     var visibility = document.getElementById("messageShowHide").innerHTML
