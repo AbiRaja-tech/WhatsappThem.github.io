@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #7ffa99;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1rem;
+  position: relative;
+  min-height: 97vh;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 0.5rem 0.5rem 2.5rem 0.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-right: 1rem;
+}
+
+h1 {
+  color: #a53af7;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  background: inherit;
+  border: 1px solid #ccc;
+  border-radius: 0.7rem;
+  margin: 10px 0 3px 0;
+  padding: 0.75rem;
+  line-height: 1.25rem;
+  width: 100%;
+}
+
+input:focus {
+  border: 1px solid #000000;
+  outline: none;
+}
+
+textarea {
+  font-family: "Noto Sans JP", sans-serif;
+  background: inherit;
+  border: 1px solid #ccc;
+  border-radius: 0.7rem;
+  margin: 10px 0 3px 0;
+  padding: 0.75rem;
+  line-height: 1.25rem;
+  width: 100%;
+  resize: none;
+  display: none;
+}
+
+textarea:focus {
+  border: 1px solid #000000;
+  outline: none;
+}
+
+small {
+  margin-left: 5px;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+small:hover {
+  color: #01a701;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: #000;
+}
+
+a:hover {
+  color: #a53af7;
+}
+
+img {
+  height: 100px;
+  image-rendering: auto;
+}
+
+footer {
+  padding: 20px;
+  position: absolute;
+  bottom: 0px;
+  height: 2.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+small,
+label,
+a,
+h1,
+h3,
+p,
+li,
+ul,
+footer {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.nav--link {
+  padding: 0.1rem 0.3rem;
+  border-bottom: 1px solid #000;
+}
+
+.nav--link:hover {
+  border-bottom: 1px solid #80fae6;
+}
+
+.card {
+  padding: 1rem 1.2rem 1.5rem 1.2rem;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+  margin: 20px 0 0 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.19), 0 5px 5px rgba(0, 0, 0, 0.23);
+}
+
+.card2 {
+  padding: 0.5rem 1.2rem;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+  margin: 20px 0 0 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.card2:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.19), 0 5px 5px rgba(0, 0, 0, 0.23);
+}
+
+.card--title {
+  color: #222;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.card--link {
+  margin-top: 2rem;
+  margin-bottom: 100px;
+  text-decoration: none;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 0.3rem 1rem;
+  border-radius: 0.7rem;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+.card--link:hover {
+  background: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+.list {
+  padding: 0 20px 0 20px;
+}
+
+.contribute {
+  border-bottom: 1px solid #000;
+}
+
+.contribute:hover {
+  border-bottom: 1px solid #a53af7;
+}
